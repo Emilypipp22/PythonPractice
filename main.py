@@ -59,3 +59,21 @@ topThreeStores()
 def topThreeAnimals():
     #print first animal
     print("dog")
+    #print second animal
+    print("horse")
+    #print third animal
+    print("cat")
+
+print("these are my top three animals")
+topThreeAnimals()
+
+
+
+#define a function that out outs your name
+#followed by is my name
+def myNameIs(nameIs):
+    #print name
+    print(nameIs + " is my name")
+
+#run function
+myNameIs("Emily")
