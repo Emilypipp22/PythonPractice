@@ -77,3 +77,42 @@ def myNameIs(nameIs):
 
 #run function
 myNameIs("Emily")
+
+#define function
+def timesTwo(answer):
+    #print
+    print(answer * 2)
+#run function
+timesTwo(12)
+
+#define function
+def plusFive(total):
+    #print
+    print(total + 5)
+#run function
+plusFive(15)
+
+#define function
+def divideTwo(number):
+    #print
+    print(number / 2)
+#run function
+divideTwo(64)
+
+#define function
+def addTwoNumbers(one, two):
+    #print
+    print(one + two)
+#run function
+addTwoNumbers(82, 18)
+
+#deifne function
+def madLib(holiday, noun, place, person, adjective, pluralBodyPart, verb, adjectiveTwo, nounTwo, food, pluralNoun):
+    #print
+    print("I can't believe it's already " + holiday + " I can't wait to put on my " + noun + " and visit every " + place +  
+    " in my neighborhood, This year, i am going to dress up as (a) " + person + " with " + adjective + " " + pluralBodyPart + 
+    ". Before I " + verb + ", I make sure to grab my " + adjectiveTwo + " " + nounTwo + " to hold all of my " + food + 
+    ". Finally, all of my " + pluralNoun + " are ready to go!")
+
+#run function
+madLib("halloween", "costume", "house", "cowboy", "slimy", "hands", "drive", "colorful", "bag", "candy", "friends")
