@@ -116,3 +116,38 @@ def madLib(holiday, noun, place, person, adjective, pluralBodyPart, verb, adject
 
 #run function
 madLib("halloween", "costume", "house", "cowboy", "slimy", "hands", "drive", "colorful", "bag", "candy", "friends")
+
+#define function
+def woof():
+    #print
+    print("woof")
+#run function
+woof()
+
+#define function
+def woofTwo():
+    #return woof
+    return "Woof"
+#print function
+print(woofTwo())
+
+#define function
+def cat():
+    #return
+    return "cat"
+
+#define function
+def dog():
+    #return
+    return "dog"
+
+#print functions
+print(cat() + dog())
+
+#define function
+def numberOfPlanets():
+    #return value of planets
+    return "8"
+#print function
+print(numberOfPlanets())
+
