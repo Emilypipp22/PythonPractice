@@ -151,3 +151,31 @@ def numberOfPlanets():
 #print function
 print(numberOfPlanets())
 
+#defien function
+def practiceFunction(N):
+   #if statments
+    if (N >= 10):
+        return "hi!"
+    if (N < 10):
+        return "bye!"
+
+#print function
+print(practiceFunction(11))
+
+#define function
+def elseStatments(E):
+    if (E < 26):
+        return "dog"
+    else:
+        return "cat"
+#print function
+print(elseStatments(44))
+
+#define statments
+def trueOrFalse(x):
+    if x > 10:
+        return "x is greater than 10"
+    else:
+        return "x is not greater than 10"
+#run function
+print(trueOrFalse(5))
