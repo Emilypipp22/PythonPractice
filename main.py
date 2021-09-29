@@ -179,3 +179,43 @@ def trueOrFalse(x):
         return "x is not greater than 10"
 #run function
 print(trueOrFalse(5))
+
+#define function
+def evenOrOdd(x):
+#define statements
+    if x % 2 == 0:
+        return True
+    else:
+        return False
+ #run function
+print(evenOrOdd(10))
+
+#define function
+def twoBigNumbers(x, y):
+#define statements
+    if x > 10 and y > 10:
+        return True
+    else:
+        return False
+#run function
+print(twoBigNumbers(10,6))
+
+#define function
+def toBeOrNot(x, y):
+ #define statemnets
+    if x > 10 or not y > 10:
+        return True
+    else:
+        return False
+#run function
+print(toBeOrNot(10, 6))
+
+#define function
+def tooMuch(x, y, z):
+#define statements
+    if x > 10 or (not y > 10 and z == 5):
+        return True
+    else:
+        return False
+#run function
+print(tooMuch(10, 6, 8))
