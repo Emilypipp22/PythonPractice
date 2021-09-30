@@ -219,3 +219,76 @@ def tooMuch(x, y, z):
         return False
 #run function
 print(tooMuch(10, 6, 8))
+
+#define function
+def printTimesSeven():
+    #print statements
+    print("dog")
+    print("dog")
+    print("dog")
+    print("dog")
+    print("dog")
+    print("dog")
+    print("dog")
+#run function
+printTimesSeven()
+
+# do this instead
+
+#define function
+def whileLoop():
+    #variable defenition
+    count = 1
+    #make while statement
+    while count < 10:
+        #print
+        print("yes")
+        count = count + 1
+#run function
+whileLoop()
+
+#define function
+def countExample():
+    count = 1
+    print(count)
+    count = 2
+    print(count)
+
+#define function
+def dogTooManyTimes():
+    count = 1
+    while  count <=  9:
+        print("dog")
+        count = count + 1
+    #run function
+dogTooManyTimes()
+
+#define function
+def oneToOneHundered():
+    count = 1
+    while count <= 100:
+        print(count)
+        count = count + 1
+#run function
+oneToOneHundered()
+
+#define function
+def byFive():
+    count = 5
+    while count <= 100:
+        print(count)
+        count = count + 5
+#run function
+byFive()
+
+#define function
+def countToTen():
+    count = 1
+    number = 1
+    while number <= 10:
+        while count <= 10:
+            print(count)
+            count = count + 1
+        number = number + 1
+        count = 1
+countToTen()
