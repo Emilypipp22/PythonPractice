@@ -292,3 +292,22 @@ def countToTen():
         number = number + 1
         count = 1
 countToTen()
+
+#define variable practice
+mystring = "potato"
+#postions   012345
+
+#define function
+def lastLetter(w):
+    return w[len(w) - 1]
+#run function
+print(lastLetter("potato"))
+
+#define function
+def spellingBee(w):
+    x = 0
+    while x < len(w):
+        print(w[x])
+        x = x + 1
+#run function
+spellingBee("hippo")
