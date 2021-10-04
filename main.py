@@ -1,3 +1,5 @@
+#PRINT PRACTICE
+
 # define function
 def topFiveMovies():
     # print first movie
@@ -124,6 +126,8 @@ def woof():
 #run function
 woof()
 
+#RETURN PRACTICE
+
 #define function
 def woofTwo():
     #return woof
@@ -150,6 +154,8 @@ def numberOfPlanets():
     return "8"
 #print function
 print(numberOfPlanets())
+
+#IF STATEMENTS
 
 #defien function
 def practiceFunction(N):
@@ -235,6 +241,8 @@ printTimesSeven()
 
 # do this instead
 
+#WHILE LOOPS
+
 #define function
 def whileLoop():
     #variable defenition
@@ -311,3 +319,23 @@ def spellingBee(w):
         x = x + 1
 #run function
 spellingBee("hippo")
+
+#define function
+v = "hubble"
+print(v[1])
+
+#FOR LOOPS
+
+#general syntax
+for i in range():
+    print(i)
+
+#define function
+for i in range(0, 10):
+    print(i)
+    #only runs 0 through 9
+
+#define function
+for i in range(1, 11):
+    print(i)
+i = 1
